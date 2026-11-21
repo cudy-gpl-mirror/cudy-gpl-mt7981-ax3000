@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ "$ACTION" = stratum ]; then
+	logger -t ntp "time sync"
+	touch /etc/rom_version
+	touch /tmp/.timeclock
+fi

@@ -1,0 +1,7 @@
+noipdefault
+noauth
+nobsdcomp
+nodeflate
+idle 0
+maxfail 0
+refuse-eap

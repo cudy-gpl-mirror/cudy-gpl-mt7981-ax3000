@@ -1,0 +1,8 @@
+menu "Configuration"
+
+config UBOOT_NAND
+	bool "custom config for uboot support nand flash."
+	default n
+	help
+		This is custom config for uboot support nand flash.
+endmenu

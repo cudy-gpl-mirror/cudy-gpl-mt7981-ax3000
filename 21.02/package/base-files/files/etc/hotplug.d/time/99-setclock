@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ "$ACTION" = setclock ]; then
+	/etc/init.d/sysfixtime restart
+	touch /etc/rom_version
+	touch /tmp/.timeclock
+fi
